@@ -10,6 +10,7 @@ public class Automovil {
     private String marca;
     private String tipo;
     private String gama;
+    //private int estado;
 
 
     public Automovil() {
