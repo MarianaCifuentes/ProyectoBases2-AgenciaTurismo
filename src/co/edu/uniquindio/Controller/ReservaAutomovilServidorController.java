@@ -13,9 +13,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import co.edu.uniquindio.Modelo.App;
-import co.edu.uniquindio.Modelo.Automovil;
-import co.edu.uniquindio.Modelo.ReservaAutomovil;
+import application.Main;
+import co.edu.uniquindio.model.Automovil;
+import co.edu.uniquindio.model.ReservaAutomovil;
 import co.edu.uniquindio.connection.ConexionServidor;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.FXCollections;
@@ -25,9 +25,8 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.util.StringConverter;
-import oracle.sql.DATE;
 
-public class ReservasServidorController {
+public class ReservaAutomovilServidorController {
 
 
     @FXML
@@ -131,7 +130,7 @@ public class ReservasServidorController {
     }
 
 
-    public void setAplicacion(App app) {
+    public void setAplicacion(Main main) {
     }
 
     

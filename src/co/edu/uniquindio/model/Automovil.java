@@ -1,4 +1,4 @@
-package co.edu.uniquindio.Modelo;
+package co.edu.uniquindio.model;
 
 public class Automovil {
 

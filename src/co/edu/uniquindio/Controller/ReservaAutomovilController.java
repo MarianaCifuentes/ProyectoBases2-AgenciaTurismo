@@ -8,9 +8,9 @@ import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.List;
-import co.edu.uniquindio.Modelo.App;
-import co.edu.uniquindio.Modelo.Automovil;
-import co.edu.uniquindio.Modelo.ReservaAutomovil;
+import application.Main;
+import co.edu.uniquindio.model.Automovil;
+import co.edu.uniquindio.model.ReservaAutomovil;
 import co.edu.uniquindio.connection.ConexionCliente;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -24,7 +24,7 @@ import javafx.stage.Stage;
 import javafx.util.StringConverter;
 
 
-public class ReservaController {
+public class ReservaAutomovilController {
 
 
      @FXML
@@ -254,7 +254,7 @@ public class ReservaController {
     public void setStage(Stage stage) {
     }
 
-    public void setAplicacion(App app) {
+    public void setAplicacion(Main main) {
     }
 
     
