@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.Controller.ReservasServidorController">
+   <children>
+      <Label layoutX="202.0" layoutY="50.0" prefHeight="28.0" prefWidth="197.0" text="Reservas Automoviles">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TableView fx:id="reservasTable" layoutX="113.0" layoutY="145.0" prefHeight="200.0" prefWidth="374.0">
+        <columns>
+          <TableColumn fx:id="codigo_reserva" prefWidth="75.0" text="Codigo Reserva" />
+          <TableColumn fx:id="fecha_reserva" prefWidth="75.0" text="Fecha Reserva" />
+            <TableColumn fx:id="fecha_entrega" prefWidth="75.0" text="Fecha entrega" />
+            <TableColumn fx:id="total_reserva" prefWidth="75.0" text="Total" />
+            <TableColumn fx:id="id_cliente" prefWidth="75.0" text="Id cliente" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

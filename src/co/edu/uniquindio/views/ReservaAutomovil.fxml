@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.Controller.ReservaController">
+   <children>
+      <Label layoutX="208.0" layoutY="35.0" text="RESERVA AUTOMOVILES">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Separator layoutX="9.0" layoutY="86.0" prefHeight="0.0" prefWidth="593.0" />
+      <DatePicker fx:id="fechaReservaDate" layoutX="113.0" layoutY="123.0" />
+      <Label layoutX="26.0" layoutY="127.0" text="Fecha reserva" />
+      <Label layoutX="322.0" layoutY="127.0" prefHeight="17.0" prefWidth="80.0" text="Fecha entrega" />
+      <DatePicker fx:id="fechaEntregaDate" layoutX="412.0" layoutY="123.0" />
+      <ComboBox fx:id="automovilcmb" layoutX="278.0" layoutY="185.0" onAction="#accionAutomovilcmb" prefHeight="25.0" prefWidth="139.0" />
+      <Label layoutX="197.0" layoutY="189.0" prefHeight="17.0" prefWidth="65.0" text="Automovil" />
+      <Label layoutX="36.0" layoutY="237.0" prefHeight="17.0" prefWidth="45.0" text="Marca" />
+      <TextField fx:id="marcatxt" layoutX="108.0" layoutY="233.0" />
+      <TextField fx:id="tipotxt" layoutX="108.0" layoutY="280.0" />
+      <Label layoutX="36.0" layoutY="284.0" prefHeight="17.0" prefWidth="45.0" text="Tipo" />
+      <Label layoutX="348.0" layoutY="284.0" prefHeight="17.0" prefWidth="45.0" text="Modelo" />
+      <TextField fx:id="gamatxt" layoutX="420.0" layoutY="280.0" />
+      <TextField fx:id="totaltxt" layoutX="227.0" layoutY="357.0" />
+      <Label layoutX="159.0" layoutY="361.0" prefHeight="17.0" prefWidth="72.0" text="Valor total" />
+      <Label layoutX="322.0" layoutY="237.0" prefHeight="17.0" prefWidth="101.0" text="Servicio Adicional" />
+      <ComboBox fx:id="servicioAdicionalCmb" layoutX="428.0" layoutY="233.0" onAction="#accionServicioAdicional" prefHeight="25.0" prefWidth="139.0" />
+      <Button fx:id="reservarBtn" layoutX="423.0" layoutY="357.0" mnemonicParsing="false" onAction="#reservarAccion" text="Reservar" />
+   </children>
+</AnchorPane>
